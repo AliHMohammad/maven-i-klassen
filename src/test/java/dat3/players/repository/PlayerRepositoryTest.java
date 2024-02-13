@@ -33,7 +33,7 @@ class PlayerRepositoryTest {
         playerRepository.save(player);
 
         assertTrue(player.getId()>0);
-        assertEquals(3, playerRepository.count());
+        assertEquals(4, playerRepository.count());
     }
 
 
